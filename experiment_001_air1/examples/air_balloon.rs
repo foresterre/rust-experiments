@@ -1,6 +1,6 @@
-use air::{Event, Report, ReportType, Reporter};
+use air1::{Event, Report, ReportType, Reporter};
 use indicatif::ProgressStyle;
-use std::io::{BufRead, Stdout, Write};
+use std::io::{Stdout, Write};
 use std::marker::PhantomData;
 
 struct MyEvent {
